@@ -1,0 +1,43 @@
+debug: true
+sql:
+  host: "localhost"
+  port: "3306"
+  database: "ShingetsuNation"
+  username: "root"
+  password: ""
+
+messages:
+  no-permission: "&cInsufficient permissions"
+  invalid-player: "&cInvalid player"
+  invalid-side: "&cInvalid side, valid sides &7[neutral, crescent, gibbous]"
+  same-side: "&cPlayer is already in this side."
+
+  check-command: " &c* &a%player%&f's side is: %side%"
+  success-command: "&aCommand executed successfully"
+  help:
+    - " "
+    - "&f/coresides change &7[PLAYER] [OPTION]"
+    - ""
+    - "&f/coresides check &7[PLAYER]"
+    - " "
+    - "&f/coresides reset &7[PLAYER]"
+    - " "
+    - "&f/coresides update &7[PLAYER]"
+    - " "
+  update-help:
+    - " "
+    - "&f/coresides update &7[PLAYER]"
+    - "  &4» &cUpdates player's username in tablist"
+  change-help:
+    - " "
+    - "&f/coresides change &7[PLAYER] [OPTION]"
+    - "  &4» &cChanges player's side"
+    - "  &4» &cCan only be &7[neutral, crescent, gibbous]"
+  check-help:
+    - " "
+    - "&f/coresides check &7[PLAYER]"
+    - "  &4» &cReturns player's side from database"
+  reset-help:
+    - " "
+    - "&f/coresides reset &7[PLAYER]"
+    - "  &4» &cReset player's side &7(Default: neutral)"

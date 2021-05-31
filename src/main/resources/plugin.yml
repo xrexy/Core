@@ -1,0 +1,17 @@
+name: Core
+version: ${project.version}
+main: org.shingetsunation.core.Core
+authors: [ xrexy ]
+description: Core plugin for ShingetsuNation
+
+commands:
+  coresides:
+    usage: "<command>"
+    aliases:
+      - csides
+      - sides
+      - side
+    description: "Command used by moderators to manage player sides"
+  changeside:
+    usage: "<command>"
+    description: "Command used by players to change their side"
